@@ -2,6 +2,11 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+customblock:
+  author:
+    name: "Rohit"
+    address: "Pune"
+
 replicaCount: 1
 
 image:
