@@ -2,6 +2,10 @@ apiVersion: apps/v1
 kind: Deployment
   {{- .Values.customblock.author.name}}
   {{- .Values.customblock.author.address}}
+
+
+  {{- "Values from Chart"}}
+  {{-  .Chart.AppVersion}}
 metadata:
   name: {{ include "my-first-chart.fullname" . }}
   labels:
