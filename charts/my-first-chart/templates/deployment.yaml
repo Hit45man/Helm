@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
-  {{- .Values.customeblock.author.name}}
-  {{- .Values.customeblock.author.address}}
+  {{- .Values.customblock.author.name}}
+  {{- .Values.customblock.author.address}}
 
   {{- "Values from Chart"}}
   {{- .Chart.apiVersion}}
